@@ -14,6 +14,6 @@ window.ARTICLE = {
   blocks: [
     { type: "heading", text: "MY TOEIC CERTIFICATE" },
     { type: "paragraph", text: "This is a small proof of my English proficiency. I can read and write technical documents in English, and can communicate with foreign colleagues."},
-    { type: "image", src: "../assets/TOEIC_cert.jpg", label: "My TOEIC Certificate", caption: "toeic_cert", height: 700 }
+    { type: "image", src: "assets/TOEIC_cert.jpg", label: "My TOEIC Certificate", caption: "toeic_cert", height: 700 }
     ]
 };

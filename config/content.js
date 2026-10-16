@@ -42,7 +42,7 @@ window.SITE = {
         name: "Smart Shelf Scale System",
         description: "Developed a wireless multi-scale weighing system for warehouse shelves and mobile pallets. Implemented multiplexed sensor management and a custom communication protocol with encryption, acknowledgments, and fault handling.",
         type: "Embedded / IoT",
-        image: "../assets/smartScaleAvatar.png",
+        image: "assets/smartScaleAvatar.png",
         link: "wireless-shelf-scale.html"
       },
       {
@@ -50,7 +50,7 @@ window.SITE = {
         name: "Some Of My Researches",
         description: "One or two sentences: the MCU, the RTOS or bare-metal approach, and what you validated.",
         type: "Reinforcement Learning / Machine Learning",
-        image: "../assets/RL_4_1_intersection.png",
+        image: "assets/RL_4_1_intersection.png",
         link: "some-of-my-researches.html"
       },
       {
@@ -58,7 +58,7 @@ window.SITE = {
         name: "My TOEIC Certificate",
         description: "A small proof of my English proficiency. I can read and write technical documents in English, and can communicate with foreign colleagues.",
         type: "English Proficiency",
-        image: "../assets/TOEIC_cert.jpg",
+        image: "assets/TOEIC_cert.jpg",
         link: "toeic-cert.html"
       }
     ]

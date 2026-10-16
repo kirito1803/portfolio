@@ -76,7 +76,7 @@
     // Visual stack (bottom to top): blob -> photo -> blob wave in front of the photo
     const visual = el("div", "hero-visual");
     visual.innerHTML = '<svg class="blob" viewBox="0 0 600 700" preserveAspectRatio="none" aria-hidden="true"><path d="M210 0H600V600C520 680 400 720 330 680 260 640 250 580 190 520 120 450 0 440 20 320 40 210 200 130 210 0Z"/></svg>';
-    const avatar = h.image ? img(h.image, S.brand) : img("../assets/avatar_no_bg.png", "Avatar");
+    const avatar = h.image ? img(h.image, S.brand) : img("assets/avatar_no_bg.png", "Avatar");
     avatar.className = "avatar";
     visual.appendChild(avatar);
     visual.insertAdjacentHTML("beforeend", '<svg class="blob-front" viewBox="0 0 600 700" preserveAspectRatio="none" aria-hidden="true"><path d="M190 520C240 575 300 600 370 588 450 574 530 590 600 548V600C520 680 400 720 330 680 260 640 250 580 190 520Z"/></svg>');
@@ -104,7 +104,7 @@
     // if (S.about.image) disc.appendChild(img(S.about.image, S.brand)); else disc.innerHTML = CHIP;
     // aw.append(at, disc); about.appendChild(aw);
     const disc = el("div", "disc");
-    disc.appendChild(img("../assets/disc_pic.jpg", S.brand));
+    disc.appendChild(img("assets/disc_pic.jpg", S.brand));
     aw.append(at, disc);
     about.appendChild(aw);
 
