@@ -26,7 +26,7 @@ window.SITE = {
 
   about: {
     title: "About me",
-    text: "Final-year Mechatronics Engineering student at HCMUT in Ho Chi Minh City, with about 1.5 years of independent R&D work on IoT projects. Replace this text with your own story: the stack you use, what you test, what you want to build next.",
+    text: "Driven and technically adept final-year Mechatronics Engineering student with 1.5 years of hands-on R&D experience in embedded systems. Experienced in developing robust firmware, communication protocols, and integrated hardware-software solutions. Proven track record of owning projects from system architecture to deployment, supported by strong analytical thinking and a continuous learning mindset. TOEIC 975",
     image: "",
     button: { label: "Resume", href: "assets/ThaiMinhNhat_CV.pdf" }
   },
